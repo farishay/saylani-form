@@ -1,0 +1,233 @@
+/* elements of top */
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+
+* {
+  font-family: "Signika", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  background-image: url(../images/bgg.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+img {
+  height: 20%;
+  width: 20%;
+  margin-top: -2%;
+}
+.logos {
+  width: 10%;
+  margin-top: -2%;
+  margin-left: 12%;
+  filter: drop-shadow(3px 3px 3px);
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.sm-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.insta {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.registeration {
+  font-family: Arial, Helvetica, sans-serif, Times, serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: -2%;
+}
+.slogan {
+  text-align: center;
+  color: rgb(76, 73, 73);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.rounded-btn {
+  border: 1px solid rgb(13, 148, 201);
+  border-radius: 25px;
+  color: rgb(13, 148, 201);
+  background-color: white;
+  padding: 10px 16px;
+}
+
+.header-social {
+  max-width: 20%;
+}
+.header-social img {
+  width: 24px;
+  height: auto;
+}
+
+a {
+  margin: 0 10px;
+  color: rgb(10, 169, 222);
+  text-decoration: none !important;
+  padding: 8px;
+  font-size: 14px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+nav > a {
+  background: rgba(128, 128, 128, 0.125);
+  border: 1px solid rgba(128, 128, 128, 0.103);
+}
+
+/* bhai se pochna hai */
+
+.active {
+  color: green !important;
+}
+
+a:visited {
+  color: rgb(13, 148, 201);
+}
+
+.cap {
+  width: 15px;
+  padding: 0;
+  padding-top: 2%;
+}
+
+label {
+  font-size: 14px;
+  color: rgb(13, 148, 201);
+  text-transform: capitalize;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+input,
+select {
+  border: 1px solid green;
+  border-radius: 6px;
+  padding: 14px 10px;
+  margin-top: 4px;
+  outline: none;
+}
+
+input:focus,
+input:hover,
+select:hover {
+  border-color: rgb(13, 148, 201);
+}
+option,
+select {
+  color: gray;
+}
+
+.form {
+  width: 80%;
+  margin: 0 auto;
+}
+.parent {
+  display: flex;
+}
+
+.full-width-input {
+  width: 100%;
+}
+.parent > div,
+.full-width-input > div {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width-input > div {
+  width: 98%;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+.image-container > div {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.181);
+  border: 1px dashed gray;
+  padding: 10px;
+  border-radius: 8px;
+  height: 100%;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.image-container:hover {
+  border: 1px dashed rgb(10, 169, 222);
+  border-radius: 8px;
+}
+
+.image-container > div img {
+  width: 30px;
+  height: auto;
+}
+
+.order-list {
+  list-style: none;
+}
+hr {
+  width: 80%;
+}
+.check-box {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  max-width: 280px;
+  min-height: 40px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.check-box > div {
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.check-box img {
+  max-width: 60px;
+  width: 100%;
+  height: auto;
+}
+
+/* *************************************
+        Results/ID CARD PAGE CSS 
+************************************/
+
+.id-card {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 14px;
+}
+.submit {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(13, 148, 201);
+  border: 0;
+  padding: 14px 20px;
+  color: white;
+  border-radius: 8px;
+  text-transform: uppercase;
+}

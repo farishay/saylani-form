@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Saylani Registeration Portal</title>
+  </head>
+  <body>
+    <header class="sylani">
+      <center>
+        <img src="./images/sylani-removebg-preview.png" alt="" />
+      </center>
+    </header>
+    <!-- for social media -->
+
+    <div
+      style="display: flex; align-items: center; justify-content: space-around"
+    >
+      <div style="max-width: 20%" class="header-social">
+        <a href="https://www.facebook.com/saylani.smit">
+          <img src="./images/fb.png" alt="" srcset=""
+        /></a>
+        <a href="https://www.instagram.com/saylanimassittraining/#">
+          <img src="./images/insta.png" alt="" srcset=""
+        /></a>
+        <a href="https://www.youtube.com/@SaylaniMassITTraining">
+          <img src="./images/youtube.png" alt="" srcset=""
+        /></a>
+      </div>
+      <div>
+        <h1 class="registeration">Registeration Form - SMIT</h1>
+        <p class="slogan">Services - Education - Registeration</p>
+      </div>
+      <div style="max-width: 20%">
+        <a href="./pages/stu-portal.html" class="rounded-btn"
+          ><img src="./images/student .jpeg" alt="student portal" class="cap" />
+          student portal</a
+        >
+      </div>
+    </div>
+
+    <nav>
+      <a href="index.html" class="active"> Registeration </a>
+      <a href="./pages/id card.html"> Download ID Card</a>
+      <a href="./pages/Results.html"> Results</a>
+    </nav>
+    <br />
+
+    <!-- form -->
+    <div class="form">
+      <div class="parent">
+        <div>
+          <label>select country</label>
+          <select id="">
+            <option value="" placeholder="select country">
+              select country
+            </option>
+            <option value="">Pakistan</option>
+            <option value="">Turkey</option>
+          </select>
+        </div>
+        <div>
+          <label>Select city</label>
+          <select id="">
+            <option value="" placeholder="select country" selected disabled>
+              select city
+            </option>
+            <option value="">Istanbol</option>
+            <option value="">karachi</option>
+            <option value="">Quetta</option>
+            <option value="">Peshawar</option>
+          </select>
+        </div>
+      </div>
+      <div class="parent">
+        <div>
+          <label for="">Select course or event</label>
+          <select id="">
+            <option value="" placeholder="select country">
+              select course or event
+            </option>
+            <option value="">None</option>
+            <option value="">Beginner</option>
+            <option value="">Intermediate</option>
+            <option value="">Advanced</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Select your computer proficiency</label>
+
+          <select id="">
+            <option value="">Select your computer proficiency</option>
+            <option value="">None</option>
+            <option value="">Beginner</option>
+            <option value="">Intermediate</option>
+            <option value="">Advanced</option>
+          </select>
+        </div>
+      </div>
+      <div class="parent">
+        <div>
+          <label for="">Full name</label>
+          <input type="text" placeholder="Full name" />
+        </div>
+        <div>
+          <label for="">Father name</label>
+          <input type="text" placeholder="Father name" />
+        </div>
+      </div>
+      <div class="parent">
+        <div>
+          <label for="">Email</label>
+          <input type="email" placeholder="Email" />
+        </div>
+        <div>
+          <label for="">Phone</label>
+          <input type="number" placeholder="Phone" />
+        </div>
+      </div>
+
+      <div class="parent">
+        <div>
+          <label for="">CNIC</label>
+          <input type="number" placeholder="CNIC" />
+        </div>
+        <div>
+          <label for=""> Father's CNIC (optional)</label>
+          <input
+            type="number"
+            placeholder=" Father's CNIC (optional)"
+            accept="optional"
+          />
+        </div>
+      </div>
+
+      <div class="parent">
+        <div>
+          <label for="">Date of birth</label>
+          <input type="date" placeholder="Date of birth" />
+        </div>
+        <div>
+          <label for="">Select gender</label>
+          <select name="" id="">
+            <option value="">Select gender</option>
+            <option value="">male</option>
+            <option value="">Female</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="full-width-input">
+        <div>
+          <label for="">Address</label>
+          <input type="text" placeholder="Address" />
+        </div>
+        <div>
+          <label for="">Last qualification</label>
+          <select name="" id="">
+            <option value="">last qualification</option>
+            <option value="">Matric</option>
+            <option value="">Intermediate</option>
+            <option value="">Undergrduate</option>
+            <option value="">Graduate</option>
+            <option value="">Other</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Do you have a laptop?</label>
+          <select name="" id="">
+            <option value="">Do you have a laptop?</option>
+            <option value="">Yes</option>
+            <option value="">No</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- image section -->
+
+    <div class="container" style="padding: 10px 20px">
+      <div class="img-text">Picture</div>
+      <div style="display: flex">
+        <div class="image-container">
+          <div>
+            <div>
+              <img src="./images/plus.png" alt="icon" />
+              <input
+                type="hidden"
+                id="upload-photo"
+                name="upload-photo"
+                class="file-input"
+              />
+            </div>
+            <div><span> Upload Photo </span></div>
+          </div>
+        </div>
+        <div>
+          <div class="img-grid">
+            <ol class="order-list">
+              <li>With white or blue background</li>
+              <li>File size must be less than 1MB</li>
+              <li>File type:jpg,jpeg,png</li>
+              <li>Upload your recent passport size picture</li>
+              <li>Your Face should be clearly visible without any glasses</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="file-upload-container">
+      <hr />
+      <div class="container" style="padding: 10px 20px">
+        <ol>
+          <li>
+            I hereby, solemnly declare that the data and facts mentioned herein
+            are true and correct to the best of my knowledge. Further, I will
+            abide by all the established and future regulations and policies of
+            SWIT
+          </li>
+          <br />
+          <li>
+            I hereby accept the responsibilities of good conduct and guarantee
+            that I will not be involved in any other activity, political or
+            ethical, but learning during my stay in the program.
+          </li>
+          <br />
+          <li>
+            Defiance will render my admission canceled at any point in time.
+          </li>
+          <br />
+          <li>
+            Upon completion, of the course, I will complete the required project
+            by SWIT.
+          </li>
+          <br />
+          <li>
+            It's mandatory for female students to wear abaya/hijab in the class
+          </li>
+        </ol>
+      </div>
+
+      <!-- robot section -->
+      <div class="container">
+        <div class="check-box">
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: start;
+              gap: 10px;
+            "
+          >
+            <input type="checkbox" />
+            <label for="" style="color: black">I'm not a robot</label>
+          </div>
+
+          <div>
+            <img src="./images/capcha.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div style="padding: 10px 20px" class="container submit-btn">
+        <button
+          style="
+            width: 100%;
+            background-color: rgb(13, 148, 201);
+            border: 0;
+            padding: 14px 20px;
+            color: white;
+            border-radius: 8px;
+            text-transform: uppercase;
+          "
+          type="submit"
+        >
+          SUMBIT
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

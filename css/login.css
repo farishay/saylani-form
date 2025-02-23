@@ -1,0 +1,94 @@
+/* elements of top */
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+
+* {
+  font-family: "Signika", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  width: 60%;
+  margin: 5% auto;
+  height: 100%;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+div > p {
+  font-size: 17px;
+  text-align: center;
+  color: gray;
+  font-weight: 500;
+  margin-top: -1px;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  background: rgba(211, 211, 211, 0.221);
+  color: rgba(128, 128, 128, 0.866);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 10px 20px;
+  width: 20%;
+  border: none;
+  border-radius: 8px;
+  text-decoration-line: none;
+}
+
+.btn.active,
+.btn:hover {
+  background-color: rgba(13, 148, 201, 0.171);
+  color: rgb(13, 148, 201);
+}
+
+.input-container,
+.login-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 57%;
+  margin-left: 22%;
+}
+
+input {
+  font-size: 13px;
+  padding: 10px 20px;
+  width: 80%;
+  border-radius: 8px;
+  margin: 20px;
+  border: 1px solid gray;
+}
+input:hover,
+input:visited {
+  border-color: rgb(13, 148, 201);
+}
+span {
+  font-size: 14px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  margin-top: -2%;
+}
+.submit {
+  width: 89%;
+  margin: 0 auto;
+  background-color: rgb(13, 148, 201);
+  border: 0;
+  padding: 14px 20px;
+  color: white;
+  border-radius: 8px;
+  text-transform: uppercase;
+  justify-content: center;
+  line-height: 4px;
+}
